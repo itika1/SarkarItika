@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>mytechformation</title>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="stylepage.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script>
+        var name= prompt('Please write down your name');
+        alert("Welcome to my website " +name); 
+    </script>
+    <script src="app.js"></script>
+</head>
+<style media="screen">
+    .carousel-cell {
+      width: 66%;
+      }
+  
+      /* cell number */
+      .carousel-cell:before {
+        display: block;
+      }
+</style>
+<body>
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar" id="myNavbar">
+    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <a href="#home" class="w3-bar-item w3-button"><i class="fas fa-home"></i>HOME</a>
+    <a href="#education" class="w3-bar-item w3-button w3-hide-small"><i class="fas fa-book-reader"></i>EDUCATION</a>
+    <a href="#dreams" class="w3-bar-item w3-button w3-hide-small"><i class="fab fa-cloudflare"></i>DREAMS</a>
+    <a href="#skills" class="w3-bar-item w3-button w3-hide-small"><i class="fas fa-wrench"></i>SKILLS</a>
+    <a href="#experiences" class="w3-bar-item w3-button w3-hide-small"><i class="fas fa-briefcase"></i>EXPERIENCES</a>
+    <a href="#projects" class="w3-bar-item w3-button w3-hide-small"><i class="fas fa-project-diagram"></i>PROJECTS</a>
+    <a href="#gallery" class="w3-bar-item w3-button w3-hide-small"><i class="far fa-images"></i>GALLERY</a>
+    <a href="#profile" class="w3-bar-item w3-button w3-hide-small"><i class="fas fa-user-circle"></i>PROFILE</a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+    <a href="#home" class="w3-bar-item w3-button" onclick="toggleFunction()">HOME</a>
+    <a href="#education" class="w3-bar-item w3-button" onclick="toggleFunction()">EDUCATION</a>
+    <a href="#dreams" class="w3-bar-item w3-button" onclick="toggleFunction()">DREAMS</a>
+    <a href="#skills" class="w3-bar-item w3-button" onclick="toggleFunction()">SKILLS</a>
+    <a href="#experiences" class="w3-bar-item w3-button" onclick="toggleFunction()">EXPERIENCES</a>
+    <a href="#projects" class="w3-bar-item w3-button" onclick="toggleFunction()">PROJECTS</a>
+    <a href="#gallery" class="w3-bar-item w3-button" onclick="toggleFunction()">GALLERY</a>
+    <a href="#profile" class="w3-bar-item w3-button" onclick="toggleFunction()">PROFILE</a>
+  </div>
+</div>
+    
+    <section id="home">
+        <div class="max-width">
+            <div class="home-content">
+                <img src="images/Myphoto.jpg" data-aos="zoom-in">
+                <div class="text1" data-aos="fade-right">Hello, I'm</div>
+                <div class="text2" data-aos="zoom-in">Itika Sarkar</div>
+                <div class="text3" data-aos="fade-left">And I'm a <span>Web developer.</span></div>   
+            </div>
+        </div>
+    </section>
+    <section class="education" id="education">
+        <div class="container" data-aos="zoom-in">
+            <div class="section-heading">
+                <h1 >My Education</h1>
+            </div>
+            <div class="timeline" data-aos="fade-right">
+                <ul>
+                    <li class="date" data-date="2018 - 2022">
+                        <h2 data-aos="zoom-in">MCKV Institute of Engineering</h2>
+                        <p data-aos="fade-left">
+                            B.Tech in Electronics & Communication Engineering under M.A.K.A.U.T
+                            YGPA: 9.05
+                        </p>
+                    </li>
+                    <li class="date" data-date="2016 - 2018">
+                        <h2 data-aos="zoom-in">TAKI HOUSE GOVT. GIRLS’ HIGH SCHOOL</h2>
+                        <p data-aos="fade-left">
+                            Done 12th under W.B.C.H.S.E 
+                            Percentage: 82%
+                        </p>
+                    </li>
+                    <li class="date" data-date="2007 - 2016">
+                        <h2 data-aos="zoom-in">R.K.S.M SISTER NIVEDITA GIRLS’ SCHOOL</h2>
+                        <p data-aos="fade-left">
+                            Done 10th under W.B.B.S.E 
+                            Percentage: 91%
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section id="dreams">
+        <h1>
+            My Dreams
+        </h1>
+        <div class="container">
+            <div class="box" data-aos="flip-left">
+                <div class="imgbox">
+                    <img src="https://www.ltteps.org/wp-content/uploads/2019/06/travel-editor-favorite-products-1024x1024.jpg">
+                </div>
+                <div class="details">
+                    <h2 class="slide">Love to travel</h2>
+                    <p class="text">My dream is to travel in uncommon places of the world and to make memories in there.</p>
+                </div>
+            </div>
+            <div class="box" data-aos="flip-right">
+                <div class="imgbox">
+                    <img src="http://s8.favim.com/orig/72/cool-cute-day-fashion-Favim.com-684246.jpg">
+                </div>
+                <div class="details">
+                    <h2 class="slide">Play a Guiter</h2>
+                    <p class="text">It is like from childhood I love to learn how to play a guiter. It is still my dream. Hope to fullfill it very soon.</p>
+                </div>
+            </div>
+            <div class="box" data-aos="flip-left">
+                <div class="imgbox">
+                    <img src="http://www.bestwebseminar.com/wp-content/uploads/2014/08/BusinessPlan-1024x1024.jpg">
+                </div>
+                <div class="details">
+                    <h2 class="slide">Plan a successful startup</h2>
+                    <p class="text">After the completion of my studies I want to start job in IT sector. After sucessfully devoting mtself for 6-7 years in IT sector I want to plan for my own start-up and make it practical.</p>
+                </div>
+            </div>
+            <div class="box" data-aos="flip-right">
+                <div class="imgbox">
+                    <img src="https://i.pinimg.com/280x280_RS/57/72/1e/57721e7a88e5e80626390a85e387e2de.jpg">
+                </div>
+                <div class="details">
+                    <h2 class="slide">Have a helicopter journey</h2>
+                    <p class="text">It's also a dream to have a helicopter journey. It can be a short journey also.</p>
+                </div>
+            </div>    
+        </div>
+    </section>
+    <section id="skills">
+        <h1>
+            My Skills
+        </h1>
+        <div class="skill">
+            <div class="set" data-aos="flip-up">
+                <span class="fas fa-globe"></span>
+                <header data-aos="zoom-in">Web Development</header>
+                <div class="list">
+                    <label data-aos="zoom-in">HTML</label>
+                    <i class="fab fa-html5"></i>
+                </div>
+                <div class="list">
+                    <label>CSS</label>
+                    <i class="fab fa-css3-alt"></i>
+                </div>
+                <div class="list">
+                    <label>Javascript</label>
+                    <i class="fab fa-js"></i>
+                </div>
+            </div> 
+            <div class="set" data-aos="flip-down">
+                <span class="fas fa-wrench"></span>
+                <header data-aos="zoom-in">Framework</header>
+                <div class="list">
+                    <label>Node.js</label>
+                    <i class="fab fa-node-js"></i>
+                </div>
+                <div class="list">
+                    <label>Bootstrap</label>
+                    <i class="fab fa-bootstrap"></i>
+                </div>
+            </div> 
+            <div class="set" data-aos="flip-up">
+                <span class="fas fa-mobile-alt"></span>
+                <header data-aos="zoom-in">Mobile Application</header>
+                <div class="list">
+                    <label>Android</label>
+                    <i class="fab fa-android"></i>
+                </div>
+                <div class="list">
+                    <label>Ios</label>
+                    <i class="fab fa-apple"></i>
+                </div>
+                <div class="list">
+                    <label>React</label>
+                    <i class="fab fa-react"></i>
+                </div>
+            </div> 
+        </div>
+    </section>
+    <section id="experiences">
+        <h1>
+            My experiences
+        </h1>
+        <div class="blog-post" data-aos="flip-left">
+            <div class="blog-post_img" data-aos="zoom-in">
+                <img src="images/IoTEduProjects.png" alt="">
+            </div>
+            <div class="blog-post_info">
+                <h2 class="blog-post_title">Content Developer</h2>
+                <p class="blog-post_text">My role in this company was to write tutorials, make questionnaires on Python and write articles on Real-time IoT applications.Projects
+                    <a href="https://iot4beginners.com/author/itika-sarkar/" target="blank">At IotEdu</a>
+                </p>
+            </div>
+        </div>
+        <div class="blog-post" data-aos="flip-right">
+            <div class="blog-post_img" data-aos="zoom-in">
+                <img src="images/ISP Insternship.png" alt="">
+            </div>
+            <div class="blog-post_info">
+                <h2 class="blog-post_title">ISP Campus Ambassador</h2>
+                <p class="blog-post_text">My roll in this internship was a student partner. I was supposed to do the digital marketing of Internshala internships and training.</p>
+            </div>
+        </div>
+        <div class="blog-post" data-aos="flip-left">
+            <div class="blog-post_img" data-aos="zoom-in">
+                <img src="images/MYWBUT CR.png" alt="">
+            </div>
+            <div class="blog-post_info">
+                <h2 class="blog-post_title">MYWBUT CR</h2>
+                <p class="blog-post_text">My role in this internship was to promote MYWBUT brand, and its services at my college campus/ friends, spread awareness.</p>
+            </div>
+        </div>
+        <div class="blog-post" data-aos="flip-right">
+            <div class="blog-post_img" data-aos="zoom-in">
+                <img src="images/IMUN CA.png" alt="">
+            </div>
+            <div class="blog-post_info">
+                <h2 class="blog-post_title">IMUN Campus Ambassador</h2>
+                <p class="blog-post_text">My role in this internship was to promote International Model United Nations among peers.</p>
+            </div>
+        </div>
+    </section>
+    <section id="projects">
+        <h1>
+            My Projects
+        </h1>
+        <div class="box-area">
+            <div class="single-box">
+                <span class="header-text"><strong>Note360 App</strong></span>
+                <div class="img-area">
+                    <div class="img-text"></div>
+                </div>
+                <div class="overlay">
+                    <a href="https://itika1.github.io/NoteApp" class="btn btn-success">See Projects</a>
+                </div>
+            </div>
+            <div class="single-box">
+                <span class="header-text"><strong>CSS Cards</strong></span>
+                <div class="img-area">
+                    <div class="img-text"></div>
+                </div>
+                <div class="overlay">
+                    <a href="https://drive.google.com/drive/folders/1pqc8UYeEBxRy_5R_Z6xVqaS3JA1uePkY?usp=sharing" class="btn btn-success">See Projects</a>
+                </div>
+            </div>
+            <div class="single-box">
+                <span class="header-text"><strong>Insta Layout</strong></span>
+                <div class="img-area">
+                    <div class="img-text"></div>
+                </div>
+                <div class="overlay">
+                    <a href="https://drive.google.com/drive/folders/1pqc8UYeEBxRy_5R_Z6xVqaS3JA1uePkY?usp=sharing" target="blank"  class="btn btn-success">See Projects</a>
+                </div>
+            </div>
+            <div class="single-box">
+                <span class="header-text"><strong>Responsive Projects</strong></span>
+                <div class="img-area">
+                    <div class="img-text"></div>
+                </div>
+                <div class="overlay">
+                    <a href="https://drive.google.com/drive/folders/1fZWrLiv7o9v-J4DAgVhgtj_bntK1-d38?usp=sharing" target="blank"  class="btn btn-success">See Projects</a>
+                </div>
+            </div>
+            <div class="single-box">
+                <span class="header-text"><strong>Real-time Projects</strong></span>
+                <div class="img-area">
+                    <div class="img-text"></div>
+                </div>
+                <div class="overlay">
+                    <a href="https://drive.google.com/drive/folders/1pqc8UYeEBxRy_5R_Z6xVqaS3JA1uePkY?usp=sharing" target="blank" class="btn btn-success">See Projects</a>
+                </div>
+            </div>
+            <div class="single-box">
+                <span class="header-text"><strong>Web Scraping</strong></span>
+                <div class="img-area">
+                    <div class="img-text"></div>
+                </div>
+                <div class="overlay">
+                    <a href="https://drive.google.com/drive/folders/1pqc8UYeEBxRy_5R_Z6xVqaS3JA1uePkY?usp=sharing" target="blank"  class="btn btn-success">See Projects</a>
+                </div>
+            </div>
+            <div class="single-box">
+                <span class="header-text"><strong>WordCloud</strong></span>
+                <div class="img-area">
+                    <div class="img-text"></div>
+                </div>
+                <div class="overlay">
+                    <a href="https://drive.google.com/drive/folders/1pqc8UYeEBxRy_5R_Z6xVqaS3JA1uePkY?usp=sharing" target="blank"  class="btn btn-success">See Projects</a>
+                </div>
+            </div>
+        </div>                
+    </section>
+    <section id="gallery">
+        <h1>
+            My Gallery
+        </h1>
+        <div class="carousel" data-flickity='{ "wrapAround": true, "autoPlay": true }'>
+            <div class="carousel-cell">
+              <img class="w3-image img-responsive img-thumbnail" src="images/withfamily.jpg">
+            </div>
+            <div class="carousel-cell">
+              <img class="w3-image img-responsive img-thumbnail" src="images/withbaba.jpg">
+            </div>
+            <div class="carousel-cell">
+              <img class="w3-image img-responsive img-thumbnail" src="images/withmaa.jpg">
+            </div>
+            <div class="carousel-cell">
+                <img class="w3-image img-responsive img-thumbnail" src="images/withdidi.jpg">
+            </div>
+          </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+        <a class="gotopbtn" href="#">
+            <i class="fas fa-arrow-up"></i>
+        </a>
+    </section>
+    <section id="profile">
+        <h1>
+            My Profile
+        </h1>
+        <div class="container2">
+            <div class="intro2">
+                <img src="images/IMG_20191130_201645 (1).jpg"  data-aos="zoom-in" alt="profile" class="shadow-dark">
+                <h1 class="me" data-aos="fade-left">Itika Sarkar</h1>
+                <div class="wrapper">
+                    <div class="social-link" data-aos="zoom-in">
+                        <div class="icon"><i class="fab fa-linkedin"></i></div>
+                        <a href="https://www.linkedin.com/in/itika-sarkar-9638b0199" target="blank">linkedin</a>
+                        
+                    </div>
+                    <div class="social-link" data-aos="zoom-in">
+                        <div class="icon"><i class="fab fa-github"></i></div>
+                        <a href="https://github.com/itika1" target="blank">github</a>
+                    </div>
+                    <div class="social-link" data-aos="zoom-in">
+                        <div class="icon"><i class="fab fa-wordpress"></i></div>
+                        <a href="https://mytechformation.wordpress.com/" target="blank">wordpress</a>
+                    </div>
+                    <div class="social-link" data-aos="zoom-in">
+                        <div class="icon"><i class="fab fa-hackerrank"></i></div>
+                        <a href="https://www.hackerrank.com/itikaitzme" target="blank">hackerrank</a>
+                    </div>
+                    <div class="social-link" data-aos="zoom-in">
+                        <div class="icon"><i class="far fa-envelope"></i></div>
+                        <a href="itikaitzme@gmail.com" target="blank">email</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset:200,
+            delay:100,
+            duration:1000
+        });
+    </script>
+    <footer class="footer-distributed">
+
+        <div class="footer-left">
+      <img src="images/Mylogo.png">
+            <h3>About<span>Mytechformation</span></h3>
+
+            <p class="footer-links">
+                <a href="#home">Home</a>
+                |
+                <a href="#education">Education</a>
+                |
+                <a href="#skills">Skills</a>
+                |
+                <a href="#experiences">Experience</a>
+            </p>
+
+            <p class="footer-company-name">© 2021 Mytechformation Personal Portfolio Website</p>
+        </div>
+
+        <div class="footer-center">
+            <div>
+                <i class="fa fa-map-marker"></i>
+                  <p><span>58/2,Purba Sinthee,
+                    Byelane South Dumdum</span>
+                    Kolkata-700030, West Bengal, India</p>
+            </div>
+
+            <div>
+                <i class="fa fa-phone"></i>
+                <p>+91 8282956229</p>
+            </div>
+            <div>
+                <i class="fa fa-envelope"></i>
+                <p><a href="mailto:itikaitzme@gmail.com">itikaitzme@gmail.com</a></p>
+            </div>
+        </div>
+        <div class="footer-right">
+            <p class="footer-company-about">
+                <span>About Me</span>
+                We offer training and skill building courses across Technology, Design, Management, Science and Humanities.</p>
+            <div class="footer-icons">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/itika-sarkar-9638b0199" target="blank"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </footer>
+  </body>
+</html>
